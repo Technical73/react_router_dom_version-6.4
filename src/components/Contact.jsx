@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <Row>
-        <Col>
+        <Col xs={12} md={6}>
           <Form className=" py-3">
             <Form.Group className="mb-5">
               <Form.Label>UserName</Form.Label>
@@ -44,7 +44,7 @@ const Contact = () => {
             </Form.Group>
           </Form>
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
           <div className="pb-5">
             <h4 className="text-center pb-3">Contact Details of the Owner</h4>
             <p>
